@@ -97,13 +97,13 @@ Video Input
 
 ## Novelties
 
-### Novelty B — Mahalanobis Anomaly Scoring
+### Novelty A — Mahalanobis Anomaly Scoring
 Each Kalman tracker accumulates its innovation residuals `r_t = z_t − H x̂_{t|t-1}` in a rolling window. The Mahalanobis distance of the current residual from the track's own distribution flags unusual motion — **no labelled data required**.
 
-### Novelty C — Geometric Re-ID Buffer
+### Novelty B — Geometric Re-ID Buffer
 Dead tracks are stored with their extrapolated bounding boxes. Unmatched detections are matched against the buffer via IoU + size similarity, restoring original IDs after occlusion without any appearance features.
 
-### Novelty D — Dwell-Time & EMA Speed
+### Novelty C — Dwell-Time & EMA Speed
 Each track maintains a `dwell_frames` counter (frames actively updated) and an EMA-smoothed pixel speed `v_t = α·d_t + (1−α)·v_{t-1}`, enabling loitering detection and fast-mover alerts with zero extra compute.
 
 ---
