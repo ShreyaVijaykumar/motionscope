@@ -4,6 +4,7 @@
 > **Deployment**: NVIDIA CUDA 12.4 GPU Docker container
 
 ---
+> [DEMO](https://drive.google.com/file/d/15PbA2WXGrKjo6eCbmUoZMH1eESNKHNhn/view?usp=sharing)
 
 ## Architecture
 
