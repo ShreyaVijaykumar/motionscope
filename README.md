@@ -1,8 +1,6 @@
 # 🎯 MotionScope — Moving Object Detection with Tracking + Trajectory Trails
 
-> **Base**: OpenCV MOG2 background subtraction  
-> **Novelty 1**: SORT multi-object tracker with persistent IDs (Kalman Filter + Hungarian Algorithm)  
-> **Novelty 2**: Colour-coded fading trajectory trails per tracked object  
+> **Base**: OpenCV MOG2 background subtraction   
 > **Deployment**: NVIDIA CUDA 12.4 GPU Docker container
 
 ---
